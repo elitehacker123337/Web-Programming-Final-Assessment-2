@@ -59,3 +59,26 @@ p {
     width: 700px;
     height: auto;
 }
+
+#me {
+  height: 400px;
+  width: 300px;
+}
+
+#grp {
+  width: 700px;
+}
+
+#grp2 {
+  height: 400px;
+  width: 1000px;
+}
+
+#me2 {
+  width: 400px;
+}
+
+#me3 {
+  height: 550px;
+  width: 400px;
+}
