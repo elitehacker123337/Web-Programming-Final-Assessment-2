@@ -21,7 +21,38 @@
       <h2 id="Contact">Contact</h2>
       <p>You can contact me via mobile at: +966 054 769 8579</p>
       <div></div>
-      <p>or you can send me an email: cataldiego5@gmail.com</p>
+      <p>or you can send me an email: </p>
+      <p id="gmail-forward" style="
+      color: blue;
+      font-style: italic;
+      font-weight: bold;
+      text-decoration: underline;
+
+      "> cataldiego5@gmail.com
+      </p>
     </body>
   </main>
+  <footer> 
+    <div class="side-container"> 
+      <div class="text-content"> 
+        <p> Let's Connect! </p>
+      </div>
+    </div>
+
+    <div class="video"> 
+      <video width ="100%" controls> 
+        <source src="9721-221158515_medium.mp4" type="video/mp4"> 
+        Your browser does not support the video tag. 
+        </video>
+      </div>
+    </div>
+  </footer>
+
+  <script> 
+    const textElement = document.getElementById("gmail-forward"); 
+
+    textElement.addEventListener("click", () => {
+      window.open("https://mail.google.com", "_blank");
+    });
+  </script>
 </html>

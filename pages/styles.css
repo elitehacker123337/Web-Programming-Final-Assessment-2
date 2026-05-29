@@ -82,3 +82,30 @@ p {
   height: 550px;
   width: 400px;
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #7e1bda;
+
+}
+
+.side-container { 
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.text-content, .video { 
+  flex: 1;
+}
+
+.text-content {
+  color: white;
+}
+
+.gmail-forward { 
+  color: rgb(0, 183, 255);
+  font-style: bold;
+}
+
