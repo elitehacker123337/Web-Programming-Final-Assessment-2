@@ -1,14 +1,26 @@
+* {
+    margin: 0px;
+    padding-bottom: 0px;
+}
 
 header{
-  background-color: #7e1bda; /* the purple from your screenshot */
+  background-color: #dc901e; 
   display: flex;
   justify-content: center;  /* centers nav links horizontally */
   align-items: center;
   width: 100%;
-  padding: 16px 0;
+  padding: 16px 0px;
 }
 
 /* #7B2FBE this is a nice shade of purple */
+
+h1{
+    font-family: Tahoma;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
 
 .header-name {
   font-family: 'Georgia', serif;
@@ -43,11 +55,18 @@ nav a:hover {
 
 h2 {
     font-size: 50px;
-    color:#7e1bda;
+    color:#dc901e;
+}
+
+main{ 
+  margin-top: px;
+  background-color: #121212;
 }
 
 p {
     font-size: 30px;
+    text-align: justify;
+    color:  #F5F5F5;
 }
 
 #first-project-example{
@@ -71,7 +90,7 @@ p {
 
 #grp2 {
   height: 400px;
-  width: 1000px;
+  width: 800px;
 }
 
 #me2 {
@@ -83,10 +102,16 @@ p {
   width: 400px;
 }
 
+body {
+  font-family: Arial;
+  margin: 0px;
+  padding: 0px;
+}
+
 footer{
   display: flex;
   justify-content: center;
-  background-color: #7e1bda;
+  background-color: #121212;
 
 }
 
