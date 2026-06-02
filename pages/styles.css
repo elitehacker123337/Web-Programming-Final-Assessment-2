@@ -134,3 +134,16 @@ footer{
   font-style: bold;
 }
 
+#index-main{
+    padding-top: 40px;
+    padding-bottom: 270px;
+}
+
+#index-main-first-p{
+  padding-bottom: 50px;
+}
+
+
+#index-main-last-p{
+  padding-top: 70px;
+}
