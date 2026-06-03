@@ -147,3 +147,17 @@ footer{
 #index-main-last-p{
   padding-top: 70px;
 }
+
+a{
+  font-size: 40px;
+  color: #dc901e;
+}
+
+.video-connect{
+  padding-top: 100px;
+  height: 100px;
+}
+
+#linkedinlink{
+  padding-left: 250px;
+}
